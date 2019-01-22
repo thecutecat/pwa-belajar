@@ -1,6 +1,6 @@
 
-importScripts('https://storage.googleapis.com/workbox-cdn/releases/3.0.0/workbox-sw.js');
-
+//importScripts('https://storage.googleapis.com/workbox-cdn/releases/3.0.0/workbox-sw.js');
+importScripts('/pwa-belajar/workbox-sw-rel.3.5.0.js');
 console.log('this is my custom service worker');
 
 workbox.precaching.precacheAndRoute([
